@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Game Time! | Madlibs!</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+
+  <body>
+    <h1>Let's play a game! {{ name }}.</h1>
+    <form action="/madlib" method="post">
+
+        <label for="person">Name of a person</label>
+        <br>
+        <input type="text" id="person" name="person">
+        <br>
+
+        <label for="color">A color:</label>
+        <br>
+        <input type="text" id="color" name="color">
+        <br>
+
+        <label for="noun">A Noun:</label> 
+        <br>
+        <input type="text" id="noun" name="noun">
+        <br>
+
+        <label for="adjective">An adjective:</label>
+        <br>
+        <input type="text" id="adjective" name="adjective">
+        <br>
+
+    <button type="submit">Generate MadLib!</button>
+
+    </form>
+
+  </body>
+
+</html>
